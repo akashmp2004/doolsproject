@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+background: url('assets/pink.jpg');
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+/* Container */
+.tracker-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Title */
+.tracker-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #d63384;
+  margin-bottom: 10px;
+}
+
+/* Subtext */
+.tracker-subtext {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Date Input */
+.tracker-input {
+  width: 90%;
+  margin: 0 auto; 
+  /* max-width: 300px; */
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Info Section */
+.tracker-info {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Progress Bar */
+.tracker-progress-container {
+  margin: 15px 0;
+}
+
+.tracker-progress {
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background-color: #f0b3c2;
+}
+
+/* Days Remaining */
+.tracker-days-remaining {
+  font-size: 14px;
+  font-weight: bold;
+  color: #d63384;
+}
+
+/* Reset Button */
+.tracker-button {
+  margin-top: 15px;
+  background-color: #d63384;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.tracker-button:hover {
+  background-color: #b02a6e;
+}
