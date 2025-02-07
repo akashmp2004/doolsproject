@@ -16,7 +16,7 @@ export default function MenstrualTracker() {
 
 return (
     <div className="tracker-container" style={{ backgroundColor: "#ffe6f2", color: "#ff66b2", textAlign: "center" }}>
-        <h2 className="tracker-title">Menstrual Health Tracker</h2>
+        <h2 className="tracker-title">Menstrual Health Tracker!!</h2>
         <p className="tracker-subtext">Select the start date of your last period:</p>
         <input type="date" onChange={handleDateSelect} className="tracker-input" style={{ borderColor: "#ff66b2" }} />
         
